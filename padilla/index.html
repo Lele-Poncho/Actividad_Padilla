@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Actividad</title>
+</head>
+<body>
+
+	<h1>Para mis compañeros de la Técnica 14</h1>
+	<p>Autores de la página:</p>
+	<ul>
+		<li>Corbalan Nicolas</li>
+		<li>García Ramiro</li>
+		<li>Moyano Santiago</li>
+		<li>Lopez Ariel</li>
+	</ul>
+
+	<main>
+		<div class="form">
+			<form action="ClaseProfesor.php" method="get">
+				<label for="p_nombre">
+					<span>Nombre del profe</span>
+					<select id="p_nombre" name="p_nombre"></select>
+				</label>
+				<label for="p_descripcion">
+					<span>Descripción del profe</span>
+					<textarea id="p_descripcion" name="p_descripcion" placeholder="#"></textarea>
+				</label>
+				<label for="a_descripcion">
+					<span>Descripción del Auto</span>
+					<textarea id="a_descripcion" name="a_descripcion" placeholder="#"></textarea>
+				</label>
+				<label for="est_lugar">
+					<span>Lugar de estacionamiento</span>
+					<textarea id="est_lugar" name="est_lugar" placeholder="#"></textarea>
+				</label>
+				<button>Actualizar datos</button>
+				<button>Eliminar profe</button>
+			</form>
+		</div>
+		<div class="form">
+			<form action="ClaseProfesor.php" method="get">
+				<label for="profe_agregar">
+					<span>Agregar un profe</span>
+					<input type="text" name="profe_agregar" id="profe_agregar" placeholder="escriba el nombre del profesor...">
+				</label>
+				<button>Agregar</button>
+			</form>
+		</div>
+	</main>
+</body>
+</html>
